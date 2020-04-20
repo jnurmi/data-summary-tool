@@ -2,9 +2,9 @@
   <div id="app">
     <b-navbar>
       <b-navbar-nav>
-        <b-nav-item href="/">Home</b-nav-item>
-        <b-nav-item href="/example">Example</b-nav-item>
-        <b-nav-item href="/about">About</b-nav-item>
+        <b-nav-item to="/">Home</b-nav-item>
+        <b-nav-item to="/example">Example</b-nav-item>
+        <b-nav-item to="/about">About</b-nav-item>
       </b-navbar-nav>
     </b-navbar>
     <router-view />
